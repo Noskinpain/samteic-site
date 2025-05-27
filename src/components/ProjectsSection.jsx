@@ -7,7 +7,7 @@ const projects = [
     emoji: '✨',
     description: 'Inspirational quote generator powered by OpenAI. Lets users generate AI-powered quotes for content inspiration.',
     tech: ['React', 'OpenAI API', 'Tailwind CSS'],
-    live: 'https://quote-generatorai.vercel.app/app', 
+    live: 'https://quote-generatorai.vercel.app', 
     github: 'https://github.com/Noskinpain/quote-generator',  
   },
   {
