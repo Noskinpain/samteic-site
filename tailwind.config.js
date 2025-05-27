@@ -37,9 +37,7 @@ export default {
         'vertical-rl': 'vertical-rl',
         'vertical-lr': 'vertical-lr',
       },
-       scrollBehavior: {
-        smooth: 'smooth',
-      },
+  
     },
   },
   plugins: [

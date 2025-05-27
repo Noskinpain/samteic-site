@@ -7,8 +7,8 @@ const projects = [
     emoji: '✨',
     description: 'Inspirational quote generator powered by OpenAI. Lets users generate AI-powered quotes for content inspiration.',
     tech: ['React', 'OpenAI API', 'Tailwind CSS'],
-    live: 'Coming soon',
-    github: 'Coming soon',
+    live: 'https://quote-generatorai.vercel.app/app', 
+    github: 'https://github.com/Noskinpain/quote-generator',  
   },
   {
     name: 'LinkMaster',
@@ -65,8 +65,31 @@ const ProjectsSection = () => {
             </div>
 
             <div className="flex gap-4 text-sm mt-3">
-              <span className="text-[#64ffda] cursor-default">🔗 {project.live}</span>
-              <span className="text-[#64ffda] cursor-default">📂 {project.github}</span>
+              {project.live.startsWith('http') ? (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#64ffda] hover:underline"
+                >
+                  🔗 Live Site
+                </a>
+              ) : (
+                <span className="text-[#8892b0]">🔗 {project.live}</span>
+              )}
+
+              {project.github.startsWith('http') ? (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#64ffda] hover:underline"
+                >
+                  📂 GitHub
+                </a>
+              ) : (
+                <span className="text-[#8892b0]">📂 {project.github}</span>
+              )}
             </div>
           </div>
         ))}
