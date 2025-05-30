@@ -262,7 +262,8 @@ function App() {
           <section className='py-36 text-center text-[#64ffda]' id='contact'>
             <p className='font-mono'>04. What’s Next?</p>
             <h1 className='text-[#a8b2d1] text-3xl md:text-5xl brightness-125 font-bold mt-4'>Get In Touch</h1>
-            <p className='text-[#8892b0]  mt-6 sm:px-10 md:px-28 lg:px-48'>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+            <p className='text-[#8892b0]  mt-6 sm:px-10 md:px-28 lg:px-48'>Whether you’re building something exciting, have a question, or just want to
+               chat about code and creativity, feel free to reach out. I’m always open to meaningful connections and interesting ideas.</p>
             <Button text="Say Hello" className="mt-16 text-sm py-4 px-6 tracking-widest" onClick={handleClick} />
           </section>
           <div className='flex md:hidden items-center pb-10 text-[#8892b0] brightness-125 text-xl gap-6 justify-center'>
@@ -274,7 +275,7 @@ function App() {
           </div>
           <div className='text-center cursor-pointer hover:text-[#64ffda] pb-5 md:pb-10 text-[#8892b0] text-[12px] font-mono'>
             <p>Designed & Built by Samteic</p>
-            <p className=''>© 2023</p>
+            <p className=''>© 2024</p>
 
           </div>
         </div>
